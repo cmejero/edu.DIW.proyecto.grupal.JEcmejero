@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+	crossorigin="anonymous">
+	<link href="Estilo.css" rel="stylesheet">
+
+<link href="Estilo.css" rel="stylesheet">
+<title>Insert title here</title>
+</head>
+
+<body>
+
+
+
+	<header>
+		<div class="container-fluid">
+			<div class="row ">
+
+				<div class="col-12"
+					style="background-color: #373737; border: 1px solid #FFD700;"
+					align="center">
+					<div class="row ">
+
+
+						<div class="col-md-1  "></div>
+						<div class="col-md-5   ">
+							<div class="row ">
+								<div class="col-12 border border-dark cabeceraArriba ">
+									<div class="row ">
+										<div class="col-3  p-2 "></div>
+										<div class="col-6 border border-dark p-2 ">socialmoterosaltair@gmail.com</div>
+										<div class="col-3 border border-dark p-2 ">635234143</div>
+
+									</div>
+
+								</div>
+							</div>
+							<div class="row ">
+								<div class="col-12 border border-dark cabeceraAbajo  ">
+
+									<div class="row ">
+										<div class="col-1 border border-dark  p-2"></div>
+										<div class="col-3 border border-dark  ">
+											<p class="cabeceraAbajo ">INICIO</p>
+										</div>
+										<div class="col-3 border border-dark p-2 ">SOCIAL</div>
+										<div class="col-3 border border-dark ">
+											<div class="btn-group ">
+												<button type="button"
+													class="btn dropdown-toggle cabeceraAbajo"
+													data-bs-toggle="dropdown" aria-expanded="false"
+													style="color: white">EVENTOS</button>
+												<ul class="dropdown-menu dropdown-menu-dark">
+													<li><a class="dropdown-item" href="#">RUTAS</a></li>
+													<li><a class="dropdown-item" href="#">EVENTOS</a></li>
+
+												</ul>
+											</div>
+
+
+
+										</div>
+										<div class="col-2 border border-dark  p-2"></div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+						<div class="col-md-6 border border-dark ">
+							<div class="row">
+								<div class="col-12 border border-dark cabeceraArriba  ">
+									<div class="row ">
+										<div class="col-6 border border-dark p-2 ">El, C. el
+											Barbero de Sevilla, 1 ,41006, Sevilla</div>
+										<div class="col-3 border border-dark ">
+											<button class="btn  botonContactar g-1" style="color: white">CONTACTAR</button>
+										</div>
+										<div class="col-3 border border-dark p-2 ">hola</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="row ">
+								<div class="col-12 border border-dark cabeceraAbajo  ">
+									<div class="row">
+										<div class="col-1 border border-dark p-2 "></div>
+										<div class="col-3 border border-dark  ">
+											<div class="btn-group">
+												<button type="button" class="btn " data-bs-toggle="dropdown"
+													aria-expanded="false"
+													style="color: #FFD700; font-size: 22px">
+													<u>REGISTRARSE</u>
+												</button>
+												<ul class="dropdown-menu dropdown-menu-dark">
+													<li><a class="dropdown-item" style="color: #FFD700;"
+														href="#">REGISTRO CLUB</a></li>
+													<li><a class="dropdown-item" style="color: #FFD700;"
+														href="#">REGISTRO USUARIO</a></li>
+
+												</ul>
+											</div>
+
+
+										</div>
+										<div class="col-3 border border-dark p-2 cabeceraArriba">¿QUIENES
+											SOMOS?</div>
+										<div class="col-3 border border-dark  p-2 cabeceraArriba">INICIAR
+											SESIÓN</div>
+										<div class="col-2 border border-dark p-2 ">></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</header>
+	<main>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 columnaPrincipal">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-5 mx-auto m-5" style="background-color: #4B0000; border: 1px solid #FFD700; border-radius: 15px">
+                                <div class="header m-3">
+                                    <h2>ELIMINAR CLUB</h2>
+                                </div>
+                                <form id="bajaForm">
+                                    <div class="row mb-3">
+                                        <div class="col">
+                                            <label for="nick" class="form-label">NICK CLUB :</label>
+                                            <input type="text" class="form-control" id="nick" required>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col">
+                                            <label for="contrasena" class="form-label">CONTRASEÑA :</label>
+                                            <input type="password" class="form-control" id="contrasena" required>
+                                        </div>
+                                    </div>
+                                    <div class="text-center m-3">
+                                        <button onclick="borrarClub()">Eliminar Club</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+
+	<footer>
+		<div class="container-fluid ">
+			<div class="row ">
+				<div style="background-color: #373737; border: 1px solid #FFD700;"
+					class="col-12  footer "></div>
+			</div>
+
+		</div>
+	</footer>
+
+	<script src="main.js"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
