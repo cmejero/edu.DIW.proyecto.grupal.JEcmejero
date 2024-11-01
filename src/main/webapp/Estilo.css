@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
 html, body {
-	height: 100%;
+	height: 100vh;
 	margin: 0;
+	 font-family: 'Old Standard TT';
 }
 
 .columnaPrincipal {
@@ -12,6 +13,13 @@ html, body {
 	flex-direction: column;
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1),
 		rgba(230, 42, 42, 0.45))
+}
+.columnaPrincipalIndex {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	
 }
 
 .container {
@@ -66,7 +74,7 @@ html, body {
 	height: 150px;
 	width: 100%;
 	display: flex;
-	border: 3px solid FFD700;
+	border: 3px solid rgb(51, 51, 51);
 	flex-direction: column;
 }
 
@@ -74,12 +82,21 @@ html, body {
 	color: white;
 	font-size: 80%;
 	text-align: right;
+	background-color: black;
+	border-bottom: 1px solid #FFD700;
 }
 
 .cabeceraAbajo {
 	color: white;
 	font-size: 120%;
+	background-color: rgb(51, 51, 51);
+	
 }
+.cabeceraAbajo:hover {
+	color: rgb(255, 255, 85);
+	
+}
+
 
 .botonContactar {
 	font-size: 100%;
